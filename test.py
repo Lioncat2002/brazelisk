@@ -4,10 +4,9 @@ def test():
     x = brazelisk.Symbol("x")
     y = brazelisk.Symbol("y")
 
-    expr1 = x**y + y * x * y + y**y
-    expr2 = x**y - y * x * y + y**y
-
-    print(expr1-expr2)
+    expr1 = x+x+y/y
+    
+    print(expr1)
 
 
 test()
